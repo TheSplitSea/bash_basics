@@ -21,7 +21,7 @@
 
 /dog?/ matches 'do' or 'dog'
 
-/dog{3,5}/ matches 'doggg' 'dogggg' 'doggggg'
+/dog{3,6}/ matches 'doggg' 'dogggg' 'doggggg' 'doggggg'
 
 # Grouping & Anchor Points
 /(dog)*/ matches 'dog' , 'dogdog'
